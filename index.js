@@ -31,7 +31,7 @@ app.get("/",async (req, res) => {
     const sz = websites.length;
     for (let i = 1; i < sz; i++) {
         //TODO Update this line to assign meaningful category
-        const categoryInd = (i%6);//For now this sequentially assigns categories
+        const categoryInd = (i%6); //For now this sequentially assigns categories
         categories.push([categoriesList[categoryInd]]);
     }
 
