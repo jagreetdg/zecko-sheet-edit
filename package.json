@@ -1,0 +1,24 @@
+{
+  "name": "zecko-sheet-edit",
+  "version": "1.0.0",
+  "description": "A Simple JavaScript program which assigns websites in a Google Sheet - meaningful categories in a seperate column, using Express and Google Sheets API in Google Cloud Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagreetdg/zecko-sheet-edit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagreetdg/zecko-sheet-edit/issues"
+  },
+  "homepage": "https://github.com/jagreetdg/zecko-sheet-edit#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "googleapis": "^103.0.0"
+  }
+}
