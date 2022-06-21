@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/jagreetdg/zecko-sheet-edit#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "googleapis": "^103.0.0"
+    "googleapis": "^103.0.0",
+    "node-fetch": "^2.6.7"
   }
 }
